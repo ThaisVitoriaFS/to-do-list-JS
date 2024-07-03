@@ -11,17 +11,15 @@
     <div class="content">
         <div class="content--add-item">
             <input type="text" id="input-new-task" placeholder="Digite sua nova Task">
-            <button id="btn-new-task" title="Clique aqui para adicionar task">
+            <button onclick="newtask()" id="btn-new-task" title="Clique aqui para adicionar task">
+                <!--onclick é para o chamado no js na pág original-->
                 +
             </button>
             <!--input = botão-->
         </div>
         <div class="content--body">
-            <ul id="to-do-list">
-                <li>lista <button>ok</button></li>
-                <li>lista</li>
-                <li>lista</li>
-            </ul>
+            <ol id="to-do-list">
+            </ol>
             <!--lista-->
         </div>
     </div>

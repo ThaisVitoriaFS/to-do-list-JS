@@ -64,5 +64,33 @@ body {
             text-transform: capitalize;
             /*são as letras maiúsculas na primeira palavra*/
             display: flex;
+            align-items: center;
             justify-content: space-between;
         }
+
+    #to-do-list li:hover{
+        background-color: rgb(212, 124, 124);
+        transition: .4s;
+        border-radius: 1rem;
+        padding-left: 1rem;
+    }
+
+    #btn-ok{
+        border: none;
+        background-color: rgb(209, 124, 124);
+        color: beige;
+        padding: .4rem .8rem;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: .4s;
+
+    }    
+
+    #btn-ok:hover{
+        background-color: rgb(187, 82, 82);
+    }
